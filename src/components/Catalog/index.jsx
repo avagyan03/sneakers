@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./catalog.module.css";
 import { Card, Search } from "../index";
-import Skeleton from "../Card/skeleton";
+import Skeleton from "../Card/Skeleton";
 
 export const Catalog = (props) => {
   const { products, children, isLoading } = props;
