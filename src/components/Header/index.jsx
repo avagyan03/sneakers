@@ -24,13 +24,13 @@ const navLinks = [
   },
 ];
 export const Header = (props) => {
-  // const { onClickBasketOpen } = props;
+
   const [navIsopen, setNavIsopen] = useState(false);
   const { totalPrice } = useBasket();
   const { setIsShow } = isShowBasket();
-  const onClickNavLink = () => {
+  const onClickNavLink = (id) => {
     setNavIsopen(!navIsopen);
-    obj.id === "basket" && setIsShow();
+    id === "basket" && setIsShow();
   };
 
   return (
