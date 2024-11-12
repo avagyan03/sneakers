@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useBasket } from "@/hooks/useBasket";
 import { useShop } from "@/hooks/useShop";
 import { isShowBasket } from "@/store/isShowBasket";
-import Card from "./card";
+import Card from "./Card";
 
 export const Basket = (props) => {
   const [isBuy, SetIsBuy] = useState(false);
