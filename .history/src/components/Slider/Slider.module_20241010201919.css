@@ -1,0 +1,67 @@
+.container {
+    composes: container from "../../style/repeat.css";
+    padding: 40px;
+}
+
+.slider {
+    background-color: #F4EFE9;
+    border-radius: 20px;
+}
+
+.slider :global .swiper-button-prev.swiper-button-disabled,
+:global .swiper-button-next.swiper-button-disabled {
+    display: none;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--button-color);
+    margin-left: 60px;
+}
+
+.span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--main-color);
+}
+
+.button {
+    width: 180px;
+    height: 50px;
+    border-radius: 110px;
+    border: none;
+    background-color: var(--button-color);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 15px 0 50px;
+    max-width: 280px;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    margin-bottom: auto;
+}

@@ -1,0 +1,13 @@
+.Header{
+    height: 50px;;
+    background: blue;
+   
+    
+}
+.Headerlogo{
+    height: 500px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.Header{
+    height: 50px;;
+    /* background: blue; */
+   
+    
+}
+.Headerlogo{
+    height: 500px;
+}
+.nav__list{
+    display: flex;
+   list-style: none;
+   gap:30px;
+   text-decoration: none;
+}

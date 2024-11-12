@@ -1,0 +1,13 @@
+.slider {
+    height: 300px;
+    background-color: #F4EFE9;
+    border-radius: 20px;
+
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

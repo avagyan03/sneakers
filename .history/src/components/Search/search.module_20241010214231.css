@@ -1,0 +1,16 @@
+.label {
+    padding: 15px 0 15px 18px;
+    /* width: 250px;
+    height: 45px; */
+    border: 1px solid var(--secondary-color);
+    display: flex;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+.input {
+    border: none;
+}

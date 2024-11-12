@@ -1,0 +1,25 @@
+.Header{
+    height: 50px;;
+    display: flex;
+    justify-content: space-between;
+ 
+    /* background: blue; */
+   
+    
+}
+.header__logo{
+    text-decoration: none;
+   
+}
+.nav__list{
+    display: flex;
+   list-style: none;
+   padding: 0;
+   margin: 0;;
+   gap:30px;
+ 
+}
+.nav__link{
+    text-decoration: none;
+
+}

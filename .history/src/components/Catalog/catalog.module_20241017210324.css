@@ -1,0 +1,33 @@
+
+
+.container {
+    composes: container from "../../style/repeat.css";
+    padding-bottom: 40px;
+}
+
+.content {
+    padding: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.title {
+    composes: title from "../../style/repeat.css";
+
+}
+
+
+
+.list {
+    composes: list from "../../style/reset.css";
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+
+
+}
+
+
+
+
+

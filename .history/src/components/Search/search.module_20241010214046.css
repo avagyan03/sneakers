@@ -1,0 +1,11 @@
+.label {
+    border: 1px solid var(--secondary-color);
+    display: flex;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+}
+.input{
+    border: none;
+}

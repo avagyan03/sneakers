@@ -1,0 +1,9 @@
+.Header{
+    height: 50px;;
+    background: blue;
+    display: flex;
+    
+}
+.Headerlogo{
+    height: 500px;
+}

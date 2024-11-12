@@ -1,0 +1,20 @@
+.Header{
+    height: 50px;;
+    /* background: blue; */
+   
+    
+}
+.header__logo{
+    text-decoration: none;
+   
+}
+.nav__list{
+    display: flex;
+   list-style: none;
+   gap:30px;
+ 
+}
+.nav__link{
+    text-decoration: none;
+
+}

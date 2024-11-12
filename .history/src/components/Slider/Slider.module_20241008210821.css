@@ -1,0 +1,9 @@
+.slider{
+    height: 300px;
+
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,56 @@
+.container {
+    composes: container from "../../style/repeat.css";
+    padding: 40px;
+}
+
+
+.slider {
+    background-color: #F4EFE9;
+    border-radius: 20px;
+
+}
+
+.slider :global .swiper-button-prev.swiper-button-disabled,
+:global .swiper-button-prev.swiper-button-disabled {
+    display: none;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--button-color);
+}
+
+.subtitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 38px;
+    color:var()
+}
+
+
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 15px 0 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    ;
+    margin-bottom: auto;
+}

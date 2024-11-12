@@ -1,0 +1,128 @@
+.header {
+    /* padding: 65px 0 0;; */
+    /* height: 50px; */
+    /* background-color: blue; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    composes: container from "../../style/repeat.css";
+    background: #fff;
+    padding: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.logo {
+    display: inline-grid;
+    grid-template-areas:
+        "img strong"
+        "img span";
+    column-gap: 10px;
+    row-gap: 5px;
+    text-decoration: none;
+}
+
+.logoImg {
+    grid-area: img;
+
+}
+
+.logoStrong {
+    font-family: var(--font-family) sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    grid-area: strong;
+    display: none;
+
+}
+
+.logoSpan {
+    font-family: var(--font-family) sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9d9d9d;
+    grid-area: span;
+    display: none;
+}
+
+.nav {
+    position: fixed;
+    top: -100%;
+    bottom: 100%;
+    z-index: 100;
+    background-color: #fff;
+    padding: 40px;
+    ;
+
+}
+
+
+.navList {
+    composes: listReset from "../../style/reset.css";
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.navLink {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.burger {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+}
+
+.burger span {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    
+}
+
+@media (min-width: 768px) {
+    .nav {
+        position: static;
+        padding: 0;
+
+    }
+
+    .navList {
+        flex-direction: row;
+    }
+
+    .navLink {
+        font-size: 16px;
+
+
+    }
+}
+
+@media (min-width: 480px) {
+
+    .logoStrong,
+    .logoSpan {
+        display: block;
+    }
+}
